@@ -17,13 +17,13 @@ const DUMMYPLACES=[{
 },
 {
     id:"p2",
-    title:"Amsterdam",
-    description:"one of the most popular place",
-    imageUrl:"https://www.amsterdam.info/sitemedia/photos-800/amsterdam-transport-central-station-public-transport-tram-stop-800x450.jpg",
-    address:"Amsterdam Netherlands",
+    title:"Almere",
+    description:"My Home",
+    imageUrl:"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xDbEvrm739beBz0F2EyrOQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=10.54209&pitch=0&thumbfov=100",
+    address:"Almere Genevestraat",
     location:{
-        lat:52.3526058,
-        lng:4.7606951
+        lat:52.397092,
+        lng:5.2786972
     },
     creator:"u2"
 
