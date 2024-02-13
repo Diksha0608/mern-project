@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from '../../shared/components/FormElements/Input';
 import Button from '../../shared/components/FormElements/Button';
-import {useForm} from '../../shared/hooks/form-hook'
+import { useForm } from '../../shared/hooks/form-hook';
 import {
   VALIDATOR_REQUIRE,
   VALIDATOR_MINLENGTH
@@ -11,7 +11,7 @@ import './NewPlaces.css';
 
 
 const NewPlace = () => {
- useForm( {
+ const [formState,inputHandler] = useForm( {
   title: {
     value: '',
     isValid: false
@@ -57,6 +57,7 @@ const NewPlace = () => {
       />
       <Input
         id="address"
+        type="text"
         element="input"
         label="address"
         validators={[VALIDATOR_REQUIRE()]}
